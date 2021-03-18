@@ -81,6 +81,36 @@ body {
 .font-size-x-large{
   font-size: x-large;
 }
+.etse{
+  max-width: 100%;
+  border-radius: 50%;
+  float: right;
+}
+.etse-text{
+  float: right;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.heart-bg {
+  background-image: url("../images/medical-infographic-one.png");
+}
+.anatomical-heart{
+  width: 10%;
+  display: inline-block;
+}
+.hands-text{
+    font-size: larger;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+    background-color: rgba(255,255,255,0.8);
+    border: 1px dotted red;
+    box-shadow: 2px 2px 20px 2px black;
+}
+.hands-orange{
+  color: #ef6b63;
+}
 .footer-logo{
   width:40%;
   margin: 30px;
@@ -427,7 +457,7 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #fff; }
+          color: #f78d23; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -662,7 +692,7 @@ h1, h2, h3, h4, h5,
           padding-left: 15px !important; }
 
 .sticky-wrapper {
-  position: absolute;
+  /*position: absolute;*/
   z-index: 100;
   width: 100%; }
   .sticky-wrapper + .site-blocks-cover {
