@@ -20,17 +20,23 @@ body {
   display:none;
 }
 .full-size-bg-bls{
-  background-image: url("../kmgprep-images/full-size-bls.jpg");
+  background-image: url("../images/full-size-bls.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .full-size-bg-acls{
-  background-image: url("../kmgprep-images/acls-standard.svg");
+  background-image: url("../images/acls-standard.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .full-size-bg-scls{
-  background-image: url("../kmgprep-images/pediatric-advanced-life-support.svg");
+  background-image: url("../images/pediatric-advanced-life-support.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cpr-bg{
+  background-image: url("../images/cpr-bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -65,12 +71,24 @@ body {
   height:200px;
 }
 .logo{
-  width: 4%;
-  position: absolute;
+  width: 34%;
+  float: right;
   margin: -16px 0px 0 -187px;
 }
-.upwork-blue {
-    background-color: #1d4354;
+.hands-on-hearts-footer-bg {
+    background-color: #151e2d;
+}
+.font-size-x-large{
+  font-size: x-large;
+}
+.footer-logo{
+  width:40%;
+  margin: 30px;
+}
+.courses-text{
+  color: #b373ed;
+  font-weight: bold;
+  text-shadow: 2px 2px #d2acb7;
 }
 .raleway{
   font-family: 'Raleway', sans-serif;
@@ -371,7 +389,9 @@ h1, h2, h3, h4, h5,
   font-size: 1.3rem;
   text-transform: uppercase; }
   .site-logo a {
-    color: #fff; }
+    color: rgb(0, 0, 0);
+    float: right;
+   }
     .site-logo a span {
       color: #c83660; }
 
@@ -380,7 +400,7 @@ h1, h2, h3, h4, h5,
   z-index: 1999;
   position: absolute;
   width: 100%;
-  background-color: rgba(0,0,0,0.5)}
+  background-color: rgba(255,255,255,1)}
   .site-navbar .container-fluid {
     padding-left: 7rem;
     padding-right: 7rem; }
@@ -393,7 +413,7 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
-      color: #c83660;
+      color: #000;
       display: inline-block;
       padding: 5px 20px; }
     .site-navbar .site-navigation .site-menu a {
@@ -403,7 +423,7 @@ h1, h2, h3, h4, h5,
       display: inline-block; }
       .site-navbar .site-navigation .site-menu > li > a {
         padding: 5px 20px;
-        color: #fff;
+        color: rgb(97, 0, 0);
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
@@ -701,7 +721,7 @@ h1, h2, h3, h4, h5,
     background: #c83660; }
 /**/
 .site-navbar .site-navigation .site-menu .collapse > li > a {
-  color: #fff;
+  color: #000;
 }
 /**/
 
@@ -1043,7 +1063,9 @@ h1, h2, h3, h4, h5,
 .add-padding{
   padding:25px;
 }
-
+.carousel {
+  margin-top: 131px;
+}
 .green-bg{
   background-color: #51a0a4;
 }
@@ -1060,18 +1082,22 @@ h1, h2, h3, h4, h5,
   background-image: url("../images/bubble-bg.png");
   background-size: cover;
 }
+.hands-over-hearts-bg{
+  background-image: url("../images/hand-over-heart.png");
+  background-size: cover;
+}
 .bls-card{
-  background-image: url("../kmgprep-images/bls.jpg");
+  background-image: url("../images/bls.png");
   background-size: cover;
   height: 228px;
 }
 .acls-card{
-  background-image: url("../kmgprep-images/acls.jpg");
+  background-image: url("../images/acls.png");
   background-size: cover;
   height: 228px;
 }
 .pals-card{
-  background-image: url("../kmgprep-images/pals.jpg");
+  background-image: url("../images/pals.png");
   background-size: cover;
   height: 228px;
 }
