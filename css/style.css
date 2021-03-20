@@ -39,6 +39,10 @@ body {
   background-image:url("../images/asteroid-bg.png");
   background-size: cover;
 }
+.red-hand-on-heart{
+  background-image:url("../images/red-hand-on-heart.svg");
+  background-size: cover;
+}
 .google-font-electro{
   font-family: 'Electrolize', sans-serif;
 }
