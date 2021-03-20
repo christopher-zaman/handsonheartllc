@@ -22,6 +22,9 @@ body {
 .black-bg{
       background-color: #000;
 }
+.bg-mobile {
+  color: #232da1;
+}
 .whats-going-on{
 	width: 10%;
   position:absolute;
