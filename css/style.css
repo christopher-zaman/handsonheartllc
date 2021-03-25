@@ -35,6 +35,9 @@ body {
   padding:5px;
   border-radius:5px;
 }
+.float-it-to-the-left{
+  float:left;
+}
 .asteroid-bg{
   background-image:url("../images/asteroid-bg.png");
   background-size: cover;
