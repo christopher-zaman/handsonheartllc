@@ -32,6 +32,30 @@
   <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/ico" href="images/favicon.ico" />
+
+  <style type="text/css">
+    /* ============ desktop view ============ */
+    @media all and (min-width: 992px) {
+      .navbar .nav-item .dropdown-menu {
+        display: none;
+      }
+  
+      .navbar .nav-item:hover .nav-link {
+        color: #fff;
+      }
+  
+      .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+      }
+  
+      .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+      }
+    }
+  
+    /* ============ desktop view .end// ============ */
+  </style>
+
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -151,8 +175,8 @@
 
 </div>
             <div class="ml-auto">
-              <nav class="site-navigation position-relative text-right" role="navigation">
-                <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+              <nav class="site-navigation position-relative text-right navbar navbar-expand-lg" role="navigation">
+                <ul class="site-menu main-menu mr-auto d-none d-lg-block">
 				<li><a href="#about-us-section" class="nav-link">About us</a></li>
 				<li><a href="#courses-section" class="nav-link">Courses</a></li>
 				<li><a href="#register" class="nav-link">Register</a></li>
@@ -515,6 +539,20 @@
 					</tr>
 				</tbody>
 			</table>
+
+      <nav class="hide-on-big-screens position-relative text-right">
+        <ul class="js-clone-nav">
+          <a class="dropdown-item" href="https://abg.ninja/abg"> ABG Ninja! </a>
+          <a class="dropdown-item" href="https://www.skillstat.com/"> SkillStat </a>
+          <a class="dropdown-item"
+            href="https://ahainstructornetwork.americanheart.org/AHAECC/ecc.jsp?pid=ahaecc.studentlanding"> ECC </a>
+          <a class="dropdown-item" href="https://ecards.heart.org/student/myecards"> AHA eCards </a>
+          <a class="dropdown-item" href="https://youtu.be/51adnbdpBqo"> ROME Method </a>
+          <li><a href="#about-us-section" class="nav-link">About us</a></li>
+          <li><a href="#courses-section" class="nav-link">Courses</a></li>
+          <li><a href="#register" class="nav-link">Register</a></li>
+        </ul>
+      </nav>
 
           </div>
 
